@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #000;
+}
+
+canvas {
+	border: 1px solid #fff;
+}
+
+#scoreBoard {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
