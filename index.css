@@ -17,3 +17,66 @@ canvas {
 	font-size: 20px;
 	margin-bottom: 10px;
 }
+
+#restartBtn{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#turnl{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#turnr{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#down {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#pad{
+	display: flex;
+	padding: 30px 20px ;
+}
+
+#pad > div {
+	margin: 0 10px;
+}
+
+#left {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#right {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
