@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html >
 
 <head>
 	<meta charset="UTF-8">
@@ -12,7 +12,15 @@
 	<div id="scoreBoard">Score: <span id="score">0</span></div>
 	<!-- サイズを大きくしたい場合は，個々の値を調整してください-->
 	<canvas id="tetris" width="240" height="400"></canvas>
+	<div id="pad">
+		<button id="turnl">↶</button>
+		<button id="left">←</button>
+		<button id="down">↓</button>
+		<button id="right">→</button>
+		<button id="turnr">↷</button>
+	</div>
 	<button id="restartBtn">Restart</button>
+
 	<script src="game.js"></script>
 </body>
 
