@@ -264,6 +264,25 @@ document.addEventListener('keydown', event => {
 	}
 });
 
+document.getElementById("turnl").addEventListener("click", () => {
+	playerRotate(-1);
+});
+
+document.getElementById("turnr").addEventListener("click", () => {
+	playerRotate(1);
+});
+
+document.getElementById("down").addEventListener("click", () => {
+	playerDrop();
+});
+
+document.getElementById("left").addEventListener("click", () => {
+	playerMove(-1);
+});
+
+document.getElementById("right").addEventListener("click", () => {
+	playerMove(1);
+});
 const arenaSweep = () => {
 	outer: for (let y = arena.length - 1; y > 0; --y) {
 		for (let x = 0; x < arena[y].length; ++x) {
